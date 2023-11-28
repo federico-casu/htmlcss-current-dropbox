@@ -27,6 +27,11 @@ a {
     color: black;
 }
 
+p {
+    line-height: 24px;
+    font-size: 16px;
+}
+
 /* // ANCHOR utility classes */
 
 .btn-blue {
@@ -129,6 +134,8 @@ main {
     color: white;
 }
 
+/* // ANCHOR begin first cta style */
+
 #first-cta {
     flex-direction: column;
     justify-content: center;
@@ -161,6 +168,38 @@ main {
     padding-left: 20px;
 }
 
+/* // ANCHOR begin video section style */
+
 video {
     border: 2px solid red;
+    margin-bottom: 50px;
 }
+
+/* // ANCHOR begin features section style */
+
+.features {
+    margin-block: 50px;
+}
+
+.features .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features .col-container {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.features .col-container .col {
+    flex-basis: calc((100% / 4) - (90px / 4));
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features .col-container .col figure img {
+    width: 45%;
+}
+
+/* // ANCHOR begin db use section style */
+
