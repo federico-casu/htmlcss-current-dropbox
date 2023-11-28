@@ -65,6 +65,8 @@ p {
     line-height: 48px;
     color: white;
     font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -203,3 +205,38 @@ video {
 
 /* // ANCHOR begin db use section style */
 
+.db-use .d-flex {
+    gap: 20px;
+}
+
+.db-use .d-flex .use-type {
+    flex-basis: calc(100% / 2 - 20px);
+}
+
+.db-use .d-flex .use-type .use-type-text {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(43, 41, 41, 1);
+    gap: 30px;
+    padding: 50px;
+}
+
+.db-use .d-flex .use-type .use-type-text span {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.db-use .d-flex .use-type .use-type-text .btn-blue {
+    padding: 20px 30px;
+    color: rgba(30, 25, 25, 1);
+    background-color: rgba(57, 132, 255, 1);
+}
+
+.db-use .d-flex .use-type .use-type-text .btn-blue i {
+    padding-left: 20px;
+}
+
+.db-use .d-flex .use-type .use-type-text .btn-blue:hover i {
+    position: relative;
+    left: 5px;
+}
