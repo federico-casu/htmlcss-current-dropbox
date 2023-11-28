@@ -1,0 +1,93 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT RESET */
+html {
+    font-family: sans-serif;
+}
+
+/* IMG RESET */
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* // ANCHOR utility classes */
+
+.btn-blue {
+    background-color: rgba(1, 97, 254, 1);
+    color: white;
+    padding: 10px 15px;
+}
+
+
+
+/* // ANCHOR begin header style */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    border: 1px dashed red;
+}
+
+nav .nav-left, nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-right ul {
+    padding-right: 10px;
+}
+
+nav .nav-right ul li.btn-blue a {
+    color: white;
+}
+
+nav .nav-right ul li.btn-blue a i {
+    padding-left: 20px;
+}
+
+nav .nav-right ul li.btn-blue:hover a i {
+    position: relative;
+    left: 5px;
+}
+
+nav .nav-left .logo img {
+    height: 7vh;
+    width: 7vh;
+}
+
+nav .nav-left .logo-scritta img {
+    height: 4vh;
+    padding-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
