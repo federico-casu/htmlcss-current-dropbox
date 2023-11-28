@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
 /* CSS RESET */
 * {
     margin: 0;
@@ -33,6 +35,32 @@ a {
     padding: 10px 15px;
 }
 
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.w-90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    font-weight: 400;
+}
 
 
 /* // ANCHOR begin header style */
@@ -43,6 +71,7 @@ header {
     left: 0;
     right: 0;
     z-index: 999;
+    background-color: white;
 }
 
 nav {
@@ -91,3 +120,47 @@ nav ul {
     gap: 20px;
 }
 
+
+/* // ANCHOR begin main style */
+
+main {
+    background-color: rgba(30, 25, 25, 1);
+    padding-top: 10vh;
+    color: white;
+}
+
+#first-cta {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 50px
+}
+
+#first-cta p {
+    line-height: 24px;
+}
+
+#first-cta .btn-blue {
+    padding: 25px 40px;
+    color: rgba(30, 25, 25, 1);
+    font-weight: bold;
+}
+
+#first-cta .btn-blue:hover {
+    background-color: rgba(50, 127, 254, 1);
+}
+
+#first-cta .btn-blue:hover i {
+    position: relative;
+    left: 5px;
+}
+
+#first-cta .btn-blue i {
+    padding-left: 20px;
+}
+
+video {
+    border: 2px solid red;
+}
