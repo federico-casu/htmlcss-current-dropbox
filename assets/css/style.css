@@ -173,7 +173,7 @@ main {
 /* // ANCHOR begin video section style */
 
 video {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 50px;
 }
 
@@ -204,6 +204,10 @@ video {
 }
 
 /* // ANCHOR begin db use section style */
+
+.db-use {
+    margin-bottom: 100px;
+}
 
 .db-use .d-flex {
     gap: 20px;
@@ -239,4 +243,31 @@ video {
 .db-use .d-flex .use-type .use-type-text .btn-blue:hover i {
     position: relative;
     left: 5px;
+}
+
+/* // ANCHOR begin db numbers section style */
+
+.db-numbers {
+    margin-bottom: 100px;
+}
+
+.db-numbers .db-numbers-container {
+    gap: 30px;
+}
+
+.db-numbers .db-numbers-container .numbers-col {
+    flex-basis: calc((100% / 3) - (60px / 3));
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.db-numbers .db-numbers-container .numbers-col .number-col-title img {
+    /* height: 50%; */
+}
+
+.db-numbers .db-numbers-container .numbers-col > p:first-of-type {
+    font-size: 20px;
+    font-weight: bold;
 }
